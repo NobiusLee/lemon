@@ -304,8 +304,8 @@ body {
   line-height: 1.2;
   font-weight: 300;
   letter-spacing: 0.025em;
+  color: #000000;
   text-transform: uppercase;
-  color: #fff;
   margin-right: 20px;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
@@ -320,6 +320,7 @@ body {
 @media (max-width: 777px) {
   .menu__item a {
     font-size: 20px;
+    color: #fff;
   }
 }
 
@@ -350,6 +351,7 @@ body {
 
 @media (max-width: 777px) {
   .input-find {
+    margin: 0 2% 0 0;
     width: 100%;
     z-index: 4;
   }

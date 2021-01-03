@@ -83,9 +83,8 @@
 		line-height: 1.2;
 		font-weight: 300;
 		letter-spacing: 0.025em;
-		//color: #000000;
+		color: #000000;
 		text-transform: uppercase;
-		color: #fff;
 
 		margin-right: 20px;
 		@media (max-width: 925px) {
@@ -94,6 +93,7 @@
 
 		@media (max-width: 777px) {
 			font-size: 20px;
+			color: #fff;
 		}
 		transition-duration: 0.25s;
 	}
@@ -117,6 +117,7 @@
 
 	@media (max-width: 777px) {
 		//padding: 47.5px 22px 47.5px 0;
+		margin: 0 2% 0 0;
 		width: 100%;
 		z-index: 4;
 	}
