@@ -1411,6 +1411,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  padding: 30px;
 }
 
 .footer__first-mobile-left-column {
