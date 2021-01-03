@@ -1,0 +1,291 @@
+.footer {
+    // .footer__wrapper
+
+    &__wrapper {
+        height: 180px;
+        @media (max-width: 777px) {
+            height: 480px;
+        }
+        background-color: #000;
+        box-shadow: 1px 3px 7px rgba(11, 12, 12, 0.14);
+        opacity: 0.8;
+    }
+
+    // .footer__column
+
+    &__column {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 0 54px 0 86px;
+
+        @media (max-width: 925px) {
+            padding: 0 25px 0 33px;
+        }
+
+        @media (max-width: 777px) {
+            display: none;
+        }
+
+        @media (min-width: 786px) {
+            display: flex;
+        }
+    }
+
+    // .footer__logo
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .footer__logo-img
+
+    &__logo-img {
+        height: auto;
+    }
+
+    // .footer__menu
+
+    &__menu {
+    }
+
+    &__menu a {
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        color: #fefefe;
+        margin-right: 15px;
+
+        @media (max-width: 925px) {
+            font-size: 10px;
+        }
+        transition-duration: 0.25s;
+    }
+    &__menu a:hover {
+        text-shadow: 0 0 10px #fffc3c;
+        color: #fffc5e;
+    }
+
+    &__menu a:last-child {
+        margin-right: 0;
+    }
+
+    // .footer__menu-home
+
+    &__menu-home {
+    }
+
+    // .footer__menu-recipes
+
+    &__menu-recipes {
+    }
+
+    // .footer__menu-photo-galleries
+
+    &__menu-photo-galleries {
+    }
+
+    // .footer__menu-videos
+
+    &__menu-videos {
+    }
+
+    // .footer__copyright
+
+    &__copyright {
+    }
+
+    // .footer__row
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // .footer__first-row
+
+    &__first-row {
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    // .footer__copyright-icon
+
+    &__copyright-icon {
+    }
+
+    // .footer__copyright-text
+
+    &__copyright-text {
+        font-size: 12px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        color: #fefefe;
+    }
+
+    // .footer__twice-row
+
+    &__twice-row {
+        display: inline-block;
+        align-self: flex-end;
+    }
+
+    // .footer__copyright-social
+
+    &__copyright-social span {
+        margin-right: 6px;
+    }
+    &__copyright-social span:last-child {
+        margin-right: 0;
+    }
+
+    ////////////////////////////////////////////////////////////////
+
+    // .footer__mobile-row
+
+    &__mobile-row {
+        display: none;
+        @media (max-width: 777px) {
+            display: flex;
+        }
+
+        flex-direction: column;
+        height: 100%;
+        padding: 32px 37px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // .footer__first-mobile-row
+
+    &__first-mobile-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    // .footer__first-mobile-left-column
+
+    &__first-mobile-left-column {
+        align-self: flex-start;
+        width: 35%;
+    }
+
+    // .footer__logo
+
+    &__mobile-logo {
+        width: auto;
+        height: 82px;
+        margin-bottom: 30px;
+    }
+
+    // .footer__logo-img
+
+    &__mobile-logo-img {
+        width: 100%;
+    }
+
+    // .footer__social
+
+    &__mobile-social {
+        display: flex;
+        justify-content: space-between;
+        height: 23px;
+    }
+
+    &__mobile-social span {
+        display: inline-block;
+    }
+
+    &__mobile-social span a img {
+        height: 100%;
+    }
+
+    &__mobile-social span a {
+        height: 50px;
+    }
+
+    // .footer__first-mobile-right-column
+
+    &__first-mobile-right-column {
+    }
+
+    // .footer__menu
+
+    &__mobile-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__mobile-menu a {
+        font-size: 24px;
+        text-align: right;
+        margin-bottom: 35px;
+        color: #fefefe;
+        text-transform: uppercase;
+    }
+
+    // .footer__menu-home
+
+    &__menu-home {
+    }
+
+    // .footer__menu-recipes
+
+    &__menu-recipes {
+    }
+
+    // .footer__menu-photo-galleries
+
+    &__menu-photo-galleries {
+    }
+
+    // .footer__menu-videos
+
+    &__menu-videos {
+    }
+
+    // .footer__twice-mobile-row
+
+    &__twice-mobile-row {
+        width: 100%;
+    }
+
+    // .footer__border-down
+
+    &__border-down {
+        width: 100%;
+        border-bottom: 2px solid #fff;
+        opacity: 0.5;
+    }
+
+    // .footer__tree-mobile-row
+
+    &__tree-mobile-row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    // .footer__copyright-text
+
+    &__mobile-copyright-text {
+        width: 270px;
+        height: 28px;
+        font-size: 24px;
+        color: #fefefe;
+        text-transform: uppercase;
+        padding-left: 20px;
+        background: url(../img/icon/Copyright.svg) no-repeat;
+        background-size: auto 70%;
+    }
+}

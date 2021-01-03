@@ -1,0 +1,155 @@
+//Фаил обнуляющих стилей
+@import "nullstyle.scss";
+
+@font-face {
+	font-family: "JosefinSans";
+	src: url("../fonts/Josefin Sans.eot");
+	src: local("☺"), url("../fonts/Josefin Sans.woff") format("woff"),
+		url("../fonts/Josefin Sans.ttf") format("truetype"), url("../fonts/Josefin Sans.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplayRegular.eot");
+	src: local("☺"), url("../fonts/PlayfairDisplayRegular.woff") format("woff"),
+		url("../fonts/PlayfairDisplayRegular.ttf") format("truetype"),
+		url("../fonts/PlayfairDisplayRegular.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+////////////////////////////////////////////////////////
+$serch-color: #000000;
+$bg-color-serch: #e0efca;
+$width-canvas: 1150px;
+////////////////////////////////////////////////////////
+
+//Предустоновки---------------------------------------------
+
+input::-webkit-input-placeholder {
+	color: $serch-color;
+	//background: $bg-color-serch;
+	font-family: JosefinSans;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+	padding: 0 0 0 13px;
+}
+input:-moz-placeholder {
+	color: $serch-color;
+	//background: $bg-color-serch;
+	font-family: JosefinSans;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+}
+input:-ms-input-placeholder {
+	color: $serch-color;
+	//background: $bg-color-serch;
+	font-family: JosefinSans;
+	font-size: 12px;
+	line-height: 1.2;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #eaeaea;
+	font-family: JosefinSans;
+}
+
+@media (max-width: 777px) {
+	body.lock {
+		overflow: hidden;
+	}
+}
+
+.container {
+	max-width: $width-canvas;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 13px 0px rgba(11, 11, 11, 0.15);
+	margin-bottom: 84px;
+
+	@media (max-width: 1170px) {
+		max-width: 918px;
+	}
+
+	@media (max-width: 925px) {
+		max-width: 768px;
+	}
+
+	@media (max-width: 777px) {
+		max-width: 100%;
+		margin-bottom: 0;
+		box-shadow: none;
+	}
+}
+
+//Предустоновки---------------------------------------------
+
+.main-logo {
+	position: relative;
+	width: 100%;
+	padding: 250px 0 118px 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: 777px) {
+		display: none;
+	}
+	z-index: 10;
+}
+
+.main-logo img {
+	display: inline-block;
+	max-width: 382px;
+}
+
+//Header----------------------------------------------------
+@import "_header";
+
+//Header----------------------------------------------------
+
+//Body----------------------------------------------------
+
+//Первый блок---------------------------------------------
+
+@import "_first-block";
+
+//Первый блок---------------------------------------------
+
+//Второй блок---------------------------------------------
+
+@import "_twist-block";
+
+//Второй блок---------------------------------------------
+
+//Третий блок---------------------------------------------
+
+@import "_tree-block";
+
+//Третий блок---------------------------------------------
+
+//Четвертый блок---------------------------------------------
+
+@import "_four-block";
+
+//Четвертый блок---------------------------------------------
+
+//Body----------------------------------------------------
+
+//Footer----------------------------------------------------
+@import "_footer";
+//Footer----------------------------------------------------
+.first-block {
+	margin: 120px 0 0 0;
+}
