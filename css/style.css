@@ -1466,6 +1466,12 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 777px) {
+  .footer__mobile-menu a {
+    font-size: 16px;
+  }
+}
+
 .footer__twice-mobile-row {
   width: 100%;
 }

@@ -230,6 +230,9 @@
         margin-bottom: 35px;
         color: #fefefe;
         text-transform: uppercase;
+        @media (max-width: 777px) {
+            font-size: 16px;
+        }
     }
 
     // .footer__menu-home
