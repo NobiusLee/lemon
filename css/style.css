@@ -274,7 +274,7 @@ body {
     -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s;
     overflow: auto;
-    background-color: #c2c2c2;
+    background-color: #4d4d4d;
     padding: 150px 0 0 0;
   }
 }
@@ -320,12 +320,13 @@ body {
 @media (max-width: 777px) {
   .menu__item a {
     font-size: 20px;
+    color: #fff;
   }
 }
 
 .menu__item a:hover {
-  text-shadow: 0 0 10px #fffb00;
-  color: #ceca00;
+  text-shadow: 0 0 10px #fffb23;
+  color: #fffb23;
 }
 
 .menu.active {
