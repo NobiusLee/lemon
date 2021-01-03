@@ -10,7 +10,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		min-height: 123px;
+		height: 100%;
 	}
 }
 
@@ -85,6 +85,7 @@
 		letter-spacing: 0.025em;
 		color: #000000;
 		text-transform: uppercase;
+		color: #fff;
 
 		margin-right: 20px;
 		@media (max-width: 925px) {
@@ -93,7 +94,6 @@
 
 		@media (max-width: 777px) {
 			font-size: 20px;
-			color: #fff;
 		}
 		transition-duration: 0.25s;
 	}

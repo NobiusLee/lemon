@@ -153,6 +153,7 @@
         display: none;
         @media (max-width: 777px) {
             display: flex;
+            justify-content: space-between;
         }
 
         flex-direction: column;
@@ -258,6 +259,7 @@
     // .footer__twice-mobile-row
 
     &__twice-mobile-row {
+        flex: 1 1 auto;
         //width: 100%;
     }
 
@@ -301,5 +303,8 @@
         padding-left: 20px;
         background: url(../img/icon/Copyright.svg) no-repeat;
         background-size: auto 70%;
+    }
+
+    .footer__wrapper.container {
     }
 }
