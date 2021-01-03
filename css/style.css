@@ -1472,10 +1472,6 @@ body {
   }
 }
 
-.footer__twice-mobile-row {
-  width: 100%;
-}
-
 .footer__border-down {
   width: 100%;
   border-bottom: 2px solid #fff;
@@ -1494,6 +1490,17 @@ body {
           align-items: center;
   width: 100%;
   height: 100%;
+  position: relative;
+}
+
+.footer__tree-mobile-row:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  top: 0;
+  left: 0;
 }
 
 .footer__mobile-copyright-text {
