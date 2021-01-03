@@ -60,7 +60,7 @@
 		transition-duration: 0.3s;
 		overflow: auto;
 		background-color: #4d4d4d;
-		padding: 150px 0 0 0;
+		padding: 90px 0 0 0;
 	}
 	&__list {
 		display: flex;
@@ -85,7 +85,7 @@
 		letter-spacing: 0.025em;
 		color: #000000;
 		text-transform: uppercase;
-		color: #fff;
+		color: #000;
 
 		margin-right: 20px;
 		@media (max-width: 925px) {
@@ -116,17 +116,18 @@
 	}
 
 	@media (max-width: 777px) {
-		padding: 47.5px 22px 47.5px 0;
+		//padding: 47.5px 22px 47.5px 0;
+		width: 100%;
 		z-index: 4;
 	}
 
 	&__form-search {
 		position: relative;
+		border: 1px solid #c2c2c2;
 	}
 	&__input {
 		width: 162px;
 		height: 28px;
-		border: 1px solid #c2c2c2;
 	}
 
 	&__btn {
@@ -195,4 +196,10 @@
 .burger-menu.active:after {
 	transform: rotate(-45deg);
 	bottom: 9px;
+}
+
+.header__columns {
+	@media (max-width: 777px) {
+		height: 70px;
+	}
 }

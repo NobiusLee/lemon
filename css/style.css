@@ -275,7 +275,7 @@ body {
             transition-duration: 0.3s;
     overflow: auto;
     background-color: #4d4d4d;
-    padding: 150px 0 0 0;
+    padding: 90px 0 0 0;
   }
 }
 
@@ -306,7 +306,7 @@ body {
   letter-spacing: 0.025em;
   color: #000000;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   margin-right: 20px;
   -webkit-transition-duration: 0.25s;
           transition-duration: 0.25s;
@@ -351,19 +351,19 @@ body {
 
 @media (max-width: 777px) {
   .input-find {
-    padding: 47.5px 22px 47.5px 0;
+    width: 100%;
     z-index: 4;
   }
 }
 
 .input-find__form-search {
   position: relative;
+  border: 1px solid #c2c2c2;
 }
 
 .input-find__input {
   width: 162px;
   height: 28px;
-  border: 1px solid #c2c2c2;
 }
 
 .input-find__btn {
@@ -437,6 +437,12 @@ body {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   bottom: 9px;
+}
+
+@media (max-width: 777px) {
+  .header__columns {
+    height: 70px;
+  }
 }
 
 .first-block {
@@ -1526,5 +1532,5 @@ body {
 }
 
 .first-block {
-  margin: 120px 0 0 0;
+  margin: 70px 0 0 0;
 }
